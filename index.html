@@ -5,13 +5,12 @@
     <style>
         
     </style>
-    <script defer>
-        
-    </script>
+    <script defer src="script.js"></script>
   </head>
   <body>
-    <rating-widget>
-        <form action="https://httpbin.org/post" method="POST">
+    <h1>Rating Widget</h1>
+    <rating-widget id="r-widget">
+        <form id="no-star-form" action="https://httpbin.org/post" method="POST">
             <label for="rating">How satisfied are you?</label>
             <input type="hidden" name="question" value="How satisfied are you?">
             <input type="hidden" name="sentBy" value="HTML">
